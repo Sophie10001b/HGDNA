@@ -1,0 +1,32 @@
+{
+    "_name_or_path": "HGDNA_2k",
+    "architectures": {
+      "forCausalLM": "HGDNAForCausalLM",
+      "forSequenceClassification": "HGDNAForSequenceClassification"
+    },
+    "auto_map": {
+      "AutoConfig": "configuration_hgdna.HGDNAConfig",
+      "AutoModel": "modeling_hgdna.HGDNAModel",
+      "AutoModelForCausalLM": "modeling_hgdna.HGDNAForCausalLM",
+      "AutoModelForSequenceClassification": "modeling_hgdna.HGDNAForSequenceClassification"
+    },
+    "vocab_size": 5130,
+    "bos_token_id": 4,
+    "eos_token_id": 5,
+    "pad_token_id": 6,
+    "hidden_size": 512,
+    "num_hidden_layers": 6,
+    "num_attention_heads": 8,
+    "intermediate_size": 2048,
+    "dropout_prob": 0.0,
+    "window_size": 1024,
+    "rope_base": 1000000,
+    "num_labels": 1,
+    "num_prompts": 64,
+    "prompt_size": 64,
+    "class_ids_start": 10,
+    "class_ids_end": 1033,
+    "problem_type": "single_label_classification",
+    "output_cls_states": false,
+    "causal": true
+  }
