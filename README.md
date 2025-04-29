@@ -40,4 +40,4 @@ We provide the corresponding fine-tuning scripts and checkpoints schedule callba
 - [vertebrate species classification (same as HyenaDNA)](./finetune/data/species_classification/download.sh)
 - [Enhancer Regression & Generation](https://huggingface.co/datasets/GenerTeam/DeepSTARR-enhancer-activity)
 
-The corresponded pre-process scripts are available in `./finetune/data/NT` for splitting NT (revised), `./finetune/data/gener_task` for gener, `./finetune/data/species_classification` for splitting species sequences into 1k, 16k, and 32k chunks, `./finetune/data/DeepSTARR-enhancer-activity` for generating splitted datasets for regression and generation
+The corresponded pre-process scripts are available in `./finetune/data/NT` for splitting NT (revised), `./finetune/data/gener_task` for gener, `./finetune/data/species_classification` for splitting species sequences into 1k, 16k, and 32k chunks, and `./finetune/data/DeepSTARR-enhancer-activity` for generating split datasets for regression and generation.
