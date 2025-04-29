@@ -1,7 +1,7 @@
 #!/bin/bash
 
 data_path="/root/autodl-tmp/finetune"
-lr=1e-4
+lr=5e-5
 batch_size=32
 accum_step=1
 
